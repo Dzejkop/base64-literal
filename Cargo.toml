@@ -1,0 +1,18 @@
+[package]
+name = "base64-literal"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dzejkop <jakubtrad@gmail.com>"]
+description = "A basic base64 literal macro"
+repository = "https://github.com/Dzejkop/base64-literal"
+readme = "./README.md"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+base64 = "0.21.0"
+quote = "1.0.26"
+syn = { version = "1.0.109", features = ["full"] }
+
